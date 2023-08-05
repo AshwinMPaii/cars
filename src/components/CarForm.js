@@ -26,6 +26,7 @@ function CarForm() {
     const handleSubmit = (event) => {
         event.preventDefault();
         dispatch(addCar({ name, cost }))//gets its value from useSelectors
+
     }
 
     return (
@@ -53,7 +54,7 @@ function CarForm() {
                         </input>
                     </div>
                     <div className="field">
-                        <button className="button is-link">submit</button>
+                        <button className="button is-link">Submit</button>
                     </div>
                 </div>
             </form>
